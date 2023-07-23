@@ -96,7 +96,7 @@ const PokemonDetails = async ({ params }: params) => {
               <h1>TYPES</h1>
               <ul>
                 {data?.pokemonDetails.types.map((types, i): any => (
-                  <li key={types.type.name} className={`${types.type.name}-fa`}>{types.type.name}</li>
+                  <li key={i} className={`${types.type.name}-fa`}>{types.type.name}</li>
                 ))}
               </ul>
             </div>
@@ -121,8 +121,8 @@ const PokemonDetails = async ({ params }: params) => {
               <ul>
 
                 {data?.pokemonDetails.stats.map((stats, i): any => (
-                  <div>
-                    <li key={stats.stat.name}>{stats.stat.name}</li>
+                  <div key={`stat-${i}`}>
+                    <li>{stats.stat.name}</li>
                     <p>base:{stats.base_stat}</p>
                   </div>
                 ))}
