@@ -1,0 +1,29 @@
+.button {
+  width: auto;
+  padding: 0 0.4rem 0 0.4rem;
+  height: 2.5rem;
+  border-radius: .3rem;
+  color: black;
+  background-color: #fff000;
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: relative;
+  box-shadow: 0px 3px 16px rgba(255, 245, 49, 0.3);
+  transition: ease-in-out .3s;
+}
+
+.button::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 2.5rem;
+  border-radius: .3rem;
+  background-color: rgba(208, 190, 190, 0.3);
+}
+.button:hover{
+  filter: invert(.1);
+}
+

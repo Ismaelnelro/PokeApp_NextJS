@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-dark-: #292929;
+  --background-light: #f2f2f2;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--background-dark-)
+}
+
+[data-theme='dark'] body {
+  background-color: var(--background-dark-);
+  color: var(--background-light);
+}
+
+/* ===================================== */
+/* =====BACKGROUND PERSONALIZADOS====== */
+/* =================================== */
+.dark-fa {
+  background-color: #4F3E3D;
+}
+
+.electric-fa {
+  background-color: #f3d73c;
+}
+
+.normal-fa {
+  background-color: #B09398;
+}
+
+.fire-fa {
+  background-color: #FF675C;
+}
+
+.water-fa {
+  background-color: #51aaba;
+}
+
+.ice-fa {
+  background-color: #AFEAFD;
+}
+
+.rock-fa {
+  background-color: #999799;
+}
+
+.flying-fa {
+  background-color: #7AE7C7;
+}
+
+.grass-fa {
+  background-color: #4A9681;
+}
+
+.psychic-fa {
+  background-color: #FFC6D9;
+}
+
+.ghost-fa {
+  background-color: #561D25;
+}
+
+.bug-fa {
+  background-color: #78f27a;
+}
+
+.poison-fa {
+  background-color: #b651b9;
+}
+
+.ground-fa {
+  background-color: #D2B074;
+}
+
+.dragon-fa {
+  background-color: #DA627D;
+}
+
+.steel-fa {
+  background-color: #1D8A99;
+}
+
+.fighting-fa {
+  background-color: #2F2F2F;
+}
+
+.fairy-fa {
+  background-color: #FFB0FF;
+}
+
+.default-fa {
+  background-color: #2A1A1F;
+} 

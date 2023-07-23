@@ -1,0 +1,56 @@
+.card {
+  width: 11rem;
+  height: 13rem;
+  border-radius: .5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.card_body {
+  width: auto;
+  margin: 0 auto;
+}
+
+.card_body img{
+  width: 100px;
+  height: 100px;
+}
+
+.card_body h1 {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  width: clamp(1.4rem, 50% 3rem);
+  height: 1.4rem;
+  border-radius: .5rem 0 .5rem 0;
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 900;
+
+  color: white;
+  background-color: #343d33;
+}
+
+
+.card_footer {
+  height: 100%;
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  overflow: hidden;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  background-color: #343d33;
+}
+
+
+.card_footer:hover p {
+  color: blue;
+  filter: brightness(150);
+}
